@@ -71,8 +71,7 @@ public class ElectricityBillingSystemGUI {
         int currentReading = Integer.parseInt(currentReadingField.getText());
         int previousReading = Integer.parseInt(previousReadingField.getText());
 
-        // Rest of your calculation logic here...
-        // Calculate the totalAmount and send the email
+        
         int units = (previousReading < currentReading) ? currentReading - previousReading : 0;
         int totalAmount = 0;
 
