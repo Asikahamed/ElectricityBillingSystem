@@ -97,20 +97,20 @@ public class ElectricityBillingSystemGUI {
             }
         }
 
-        // Example email message
+       
         String emailSubject = "Your Electricity Bill Statement";
         String emailMessage = "Your payment is pending\nConsumer Name: " + consumerName +
                 "\nConnection Number: " + connectionNumber +
                 "\nBill Amount: " + totalAmount;
 
-        // Send email
+      
         sendEmail(emailId, emailSubject, emailMessage);
 
         JOptionPane.showMessageDialog(frame, "Your bill has been sent to your registered email. Please check your inbox.");
     }
 
     private void sendEmail(String recipient, String subject, String msg) {
-        // Your email sending code here...
+      
     	String userName = "blackhatattackers@gmail.com";
         String password = "hphysynvxsxzyllb";
     	 Session session = null; // Declare session outside the try block
