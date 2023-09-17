@@ -1,5 +1,3 @@
-package Ebbillcalculation;
-
 import javax.mail.Message;
 import javax.mail.Session;
 import javax.mail.Transport;
@@ -112,8 +110,8 @@ public class ElectricityBillingSystemGUI {
     private void sendEmail(String recipient, String subject, String msg) {
       
     	String userName = "blackhatattackers@gmail.com";
-        String password = "hphysynvxsxzyllb";
-    	 Session session = null; // Declare session outside the try block
+        String password = "#"; // password here
+    	 Session session = null; 
          try {
              Properties pros = new Properties();
              pros.put("mail.smtp.auth", "true");
